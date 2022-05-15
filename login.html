@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-grid.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+   <div class="login">
+       <div class="login-kutusu">
+        
+            
+            <div class="button-kutusu">
+                <div id="btn"></div> 
+                <button type="button" class="buton-tıklama">Log In</button>
+            </div>     
+
+            <div class="sosyal-medya">
+                <a href="https://github.com/MetehanTRN" target ="_blank"><img src="./login_image/github (1).png" alt="github"></a>
+                <a href="https://www.instagram.com/metehan.trn/" target ="_blank"><img src="./login_image/instagram (4).png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/metehan-turan-689211223/" target ="_blank"><img src="./login_image/linkedin (1).png" alt="linkedin"></a>
+ 
+            </div>
+
+            <form id="login" class="giriş-elemanları"  method="POST" action="login.php">
+                <input type="email" name="email" class="giriş" placeholder="Kullanıcı Adı">
+                <input type="password" name="password" class="giriş" placeholder="Şifre">
+                <button type="submit" class="submit-btn">Giriş</button>
+            </form>
+       </div>  
+   </div>
+
+</body>
+</html>

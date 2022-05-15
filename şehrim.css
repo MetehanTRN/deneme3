@@ -1,0 +1,173 @@
+body {
+    background-image: url("./images/malatya.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+    line-height: 1.64;
+    z-index: -1;
+}
+
+.overlay {
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2700px;
+    opacity: 0.6;
+    z-index: -2;
+    
+}
+
+html, body {
+    color: #030303;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 40px 180px;
+}
+
+h1, h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+    
+}
+
+p.lead {
+    text-align: center;
+    color: #727878;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-weight: 600;
+    color: #f74c09d2;
+    z-index: 2;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#şehrim{
+    font-weight: bold;
+}
+
+#şehrim .şehrim .şehrim-detay {
+    display: block;
+    margin-top: 6px;
+}
+
+#şehrim .şehrim .şehrim-detay * {
+    color: #f40808;
+}
+
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-map-marker:before {
+    content: "\e062";
+}
+
+.sayfa{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.sayfa img{
+    width: 700px;
+    height: 400px;
+}
+
+.sliderKonum{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img-bir{left: 0px;}
+.img-iki{left: 700px;}
+.img-uc{left: 1400px;}
+.img-dort{left: 2100px;}
+
+.sliderKonum > .slider{
+    position: absolute;
+    left:0px;
+    width: 4200px;
+    height: 400px;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-name: sliders;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-duration: 20s;
+    -moz-animation-name: sliders;
+    -moz-animation-iteration-count:infinite;
+    -ms-animation-duration: 20s;
+    -ms-animation-name: sliders;
+    -ms-animation-iteration-count:infinite;
+    animation-duration: 25s;
+    animation-iteration-count:infinite;
+  }
+
+  @-webkit-keyframes sliders{
+    0% {left:0px;}
+    10% {left:-700px;}
+    20% {left:-700px;}
+    30% {left:-1400px;}
+    40% {left:-1400px;}
+    50% {left:-2100px;}
+  }
+  @-moz-keyframes sliders{
+    0% {left:0px;}
+    10% {left:-700px;}
+    20% {left:-700px;}
+    30% {left:-1400px;}
+    40% {left:-1400px;}
+    50% {left:-2100px;}
+  }
+  @-ms-keyframes sliders {
+    0% {left:0px;}
+    10% {left:-700px;}
+    20% {left:-700px;}
+    30% {left:-1400px;}
+    40% {left:-1400px;}
+    50% {left:-2100px;}
+  }
+  @keyframes sliders{
+    0% {left:0px;}
+    10% {left:-700px;}
+    20% {left:-700px;}
+    30% {left:-1400px;}
+    40% {left:-1400px;}
+    50% {left:-2100px;}
+  }
+  

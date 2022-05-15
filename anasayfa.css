@@ -1,0 +1,111 @@
+body {
+    background: #F3EFE0;
+    font-size: 15px;
+    line-height: 1.64;
+}
+
+html, body {
+    color: #434242;
+    font-family: 'Open Sans', sans-serif !important;
+    height: 100%;
+}
+
+.jumbotron {
+    background: no-repeat center right fixed url(./images/Sakarya-Universitesi-On-Kapi-Aksam-Cekim_22-Large.jpg);
+    background-size: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 40px 180px;
+}
+
+.jumbotron .container h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+
+.jumbotron .container > * {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jumbotron h1{
+    font-size: 63px;
+}
+
+h1, h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.jumbotron .container .lead {
+    font-size: 28px;
+}
+
+p.lead {
+    text-align: center;
+    color: #727878;
+}
+
+.jumbotron .overlay {
+    background-color: #22A39F;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.5;
+    height: 722px;;
+    z-index: 2;
+}
+
+.background-white {
+    background: #FFFFFF;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-weight: 300;
+    color: #22A39F;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+#profil .row > div {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#profil .row > div img {
+    width: 100%;
+    max-width: 246px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}

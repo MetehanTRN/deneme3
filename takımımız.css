@@ -1,0 +1,251 @@
+html, body {
+    height: 100%;
+    font-size: 15px;
+    color: #505050;
+    font-family: galanogrotesquealt,sans-serif;
+    vertical-align: baseline;
+    line-height: 25px;
+    font-weight: 400;
+    background: #fff;
+}
+
+
+.drak-bg4, .header-top-area4 {
+    background: #222325!important;
+}
+
+.header-top-area {
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 28px;
+    background: #f1e400;
+}
+
+.searchline2 {
+    border-left: 1px solid #434445;
+    transform: rotate(10deg);
+    width: 1px;
+    height: 120px;
+    float: left;
+    margin: 0 20px;
+}
+
+.header-top-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top-area .header-top-left ul li {
+    float: left;
+}
+
+.header-top-area ul li {
+    color: #b8c5c6;
+    line-height: 32px;
+    transition: all .4s ease 0s;
+    margin-right: 12px;
+}
+
+.header-top-area ul li a {
+    transition: all .4s ease 0s;
+    color: #b8c5c6;
+    font-family: galanogrotesquealt,sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 120px;
+    padding: 0 5px;
+}
+
+a {
+    transition: all .4s ease 0s;
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+.header-top-area ul li a img {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header-top-area .logo {
+    position: relative;
+    z-index: 999;
+    height: 120px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -ms-transition: .4s;
+}
+
+.header-top-area .logo img {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -ms-transition: .4s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: all .8s ease-in-out 0s;
+   
+}
+
+.renk{
+    width: 100%;
+    height: 100%;
+}
+
+.renk .sol_renk{
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    float: left;
+    z-index: 4;
+}
+
+.logo2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.renk .sol_renk .logo2 .eski{
+    width: 200px;
+    height: 200px;
+}
+
+.renk .sol_renk .logo2 .yeni{
+    width: 200px;
+    height: 200px;
+    float: right;   
+}
+
+.logo2 .eski img{
+    padding-top: 70px;
+    padding-left: 40px;
+    float: left;
+}
+
+.logo2 .yeni img{
+    padding-top: 70px;
+    padding-right: 40px;
+    
+}
+
+.renk .sağ_renk{
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    float : right;
+}
+
+.sol_renk h3{
+    
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sağ_renk h3{
+    
+    padding-top: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.renk .sol_renk .col-md-10{
+    
+    top: 40px;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+    overflow: scroll;
+    z-index: 4;
+    text-align:justify;
+}
+
+.isim #isim{
+    width: 100%;
+    font: bold 1.25em "Trebuchet MS", Verdana, Arial, Helvetica,
+    sans-serif;
+    border: 10px solid #505050;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    background: #C1DAD7;
+    border-collapse: collapse;
+}
+     
+.isim #isim th{
+    color: #41AA7F;
+    padding: 6px 6px 6px 12px;     
+}
+     
+.isim #isim td{
+    padding: 6px 6px 6px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.isim #isim tr{
+    color: #112233;
+    background: #fff;
+}
+
+.isim #isim tr:hover{
+    background:#202020;
+    color:#fff;
+}
+
+.isim{
+    padding-top: 30px;
+    overflow:scroll;
+}
+
+.lig #lig2{
+    width: 100%;
+    height: 100%;
+    font: bold 1.25em "Trebuchet MS", Verdana, Arial, Helvetica,
+    sans-serif;
+    border: 10px solid #505050;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    background: #C1DAD7;
+    border-collapse: collapse;
+}
+     
+    
+.lig #lig2 td{
+    padding: 6px 6px 6px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.lig #lig2 th{
+    color: #41AA7F;
+    padding: 6px 6px 6px 12px;     
+}
+
+.lig #lig2 tr{
+    color: #112233;
+    background: #fff;
+}
+
+.lig #lig2 tr:hover{
+    background:#202020;
+    color:#fff;
+}
+
+.lig{
+    padding-top: 30px;
+    overflow:scroll;
+}
+
+
