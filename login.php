@@ -2,7 +2,7 @@
 
 if ($_POST['email'] == "b201210021@sakarya.edu.tr" && $_POST['password'] =="b201210021" ){
     echo "Hoşgeldin B201210021 <br>";
-    header ("Refresh: 1; URL=anasayfa.html");
+    header ("Refresh: 1; URL=index.html");
 
 }
 
